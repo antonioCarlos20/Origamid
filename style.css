@@ -21,3 +21,12 @@ p > a{/* Seletor filho */
     text-shadow: none;
     font-weight: bold;
 }
+
+.paragrafo{
+    color: red;
+    text-shadow: none;
+}
+
+#titulo{
+    color: #cf0;
+}
