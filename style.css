@@ -40,3 +40,10 @@ p > a{/* Seletor filho */
     background-color: rgb(79, 80, 81);
     color: rgba(255, 0, 0, .8)
 }
+
+.caixa{
+    width: 300px;
+    height: 150px;
+    padding: 20px 10px;
+    background: #00F;
+}
