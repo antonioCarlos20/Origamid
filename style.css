@@ -35,3 +35,8 @@ p > a{/* Seletor filho */
     color: aquamarine;
     text-shadow: #000 0px 2px 2px;
 }
+
+.background{
+    background-color: #84e;
+    color: rgba(0, 0, 0, .5)
+}
