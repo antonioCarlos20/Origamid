@@ -37,6 +37,6 @@ p > a{/* Seletor filho */
 }
 
 .background{
-    background-color: #84e;
-    color: rgba(0, 0, 0, .5)
+    background-color: rgb(79, 80, 81);
+    color: rgba(255, 0, 0, .8)
 }
