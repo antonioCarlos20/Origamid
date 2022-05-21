@@ -51,3 +51,15 @@ p > a{/* Seletor filho */
     box-shadow: #000 10px .5px 30px;
     /* border: #000 dashed 10px; */
 }
+
+.displayInline{
+    border: 1px solid #000;
+}
+
+.displayInline > a{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px solid #F00;
+    box-shadow: inset -2px 2px 5px #C0C;
+}
