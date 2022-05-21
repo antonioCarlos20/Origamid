@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
 
 body{
@@ -16,16 +17,16 @@ h1{
 
 .carros,
 .bicicletas{
-    
     width: 1068px;
     margin: 15px 0px 15px 120px;
     padding: 30px;
+    border-radius: 4px;
     background-color: #111;
     color: #FFF
 }
 
 p,
-button{
+a{
     margin-top: 15px;
 }
 
@@ -37,11 +38,12 @@ span{
     color: #febe01;
 }
 
-button{
+a{
+    display: inline-block;
+    color: #332200;
     padding: 10px;
     border-radius: 4px;
     font-weight: 600;
-    color: #332200;
     background-color: #febe01;
     cursor: pointer;
 }
