@@ -1,4 +1,40 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.carros,
+.bicicletas{
+    margin: 15px 0px 15px 0px;
+    padding: 30px;
+    background-color: #111;
+    color: #FFF
+}
+
+p,
+button{
+    margin-top: 15px;
+}
+
+p{
+    color: #b2b2b2;
+}
+
+span{
+    color: #febe01;
+}
+
+button{
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #332200;
+    background-color: #febe01;
+    cursor: pointer;
 }
