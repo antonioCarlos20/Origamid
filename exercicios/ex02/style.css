@@ -9,9 +9,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    margin-top: 55px;
+    text-align: center;
+}
+
 .carros,
 .bicicletas{
-    margin: 15px 0px 15px 0px;
+    
+    width: 1068px;
+    margin: 15px 0px 15px 120px;
     padding: 30px;
     background-color: #111;
     color: #FFF
