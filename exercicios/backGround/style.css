@@ -12,3 +12,11 @@ div{
 .div2{
     background: rgba(0, 0, 255, .5);
 }
+
+.div3{
+    background: linear-gradient(red, blue, green);
+}
+
+.div4{
+    background: radial-gradient(red 10%, blue 40%, green 80%);
+}
