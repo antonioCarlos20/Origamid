@@ -41,3 +41,9 @@ div{
     background:top / contain no-repeat url(img/favicon_io/favicon-32x32.png),
     #111 5% url(img/favicon_io/favicon-16x16.png);
 }
+
+.div9{
+    height: auto;
+    background: repeat-y left / 30% url(img/favicon_io/favicon-32x32.png);
+    background-attachment: fixed;
+}
