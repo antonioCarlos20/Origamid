@@ -63,3 +63,12 @@ p > a{/* Seletor filho */
     border: 1px solid #F00;
     box-shadow: inset -2px 2px 5px #C0C;
 }
+
+.images{
+    width: 600px;
+}
+
+.img1{
+    max-width: 100%;
+    display: block;
+}
