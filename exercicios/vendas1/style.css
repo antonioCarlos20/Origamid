@@ -11,12 +11,23 @@
     text-align: center;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 .item{
     padding: 20px;
-    margin-bottom: 20px;
     background-color: #F7F7F7;
     border: 1px solid #E7E7E7;
     border-radius: 4px;
+    display: grid;
+}
+
+img{
+    max-width: 300px;
+    width: 100%;
 }
 
 .comprar{
