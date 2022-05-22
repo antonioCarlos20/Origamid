@@ -115,10 +115,15 @@ div{
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    border: 7px dashed #111;
 
     background: radial-gradient(#CCC 10%, #BABABA 20%, #838383 60%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.div16{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.6) 60%, rgba(252,176,69,1) 100%),
+        radial-gradient(rgba(255,255,255,1) 0%, rgba(0,0,0,1) 70%);
+
 }
