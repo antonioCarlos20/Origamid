@@ -2,8 +2,13 @@
 div{
     width: 300px;
     height: 300px;
+    margin-bottom: 10px;
 }
 
 .div1{
-    background-color: aqua;
+    background: aqua;
+}
+
+.div2{
+    background: rgba(0, 0, 255, .5);
 }
