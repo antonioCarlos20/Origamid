@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 10px;
+}
+
+div{
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid #000;
+}
+
+.gri1,
+.gri2,
+.gri3,
+.gri4,
+.gri5{
+    padding: 20px;
+}
+
+.grid{
+    padding: 10px;
+    width: 900px;
+    justify-content: center;
+    place-content: center;
+
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    gap: 10px;
+
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 5px #000;
+}
