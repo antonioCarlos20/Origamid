@@ -23,11 +23,15 @@
     border: 1px solid #E7E7E7;
     border-radius: 4px;
     display: grid;
+    justify-content: center;
+    text-align: center;
+    /* place-content: center center; atalho para align-content e justify-content */
+    gap: 10px 0px;
 }
 
 img{
-    max-width: 300px;
-    width: 100%;
+    max-width: 100%;
+    border-radius: 4px;
 }
 
 .comprar{
