@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #AFAFAF;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid #AFAFAF;
+
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;*/
+    justify-items: center;
+    gap: 10px 0px
+}
+
+img{
+    max-width: 80%;
+}
+
+a{
+    padding: 10px 20px;
+    color: #111;
+    background-color: rgba(214, 31, 171, 0.612);
+}
