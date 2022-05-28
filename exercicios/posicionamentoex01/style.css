@@ -90,7 +90,6 @@ body{
 
 .especificacoes{
     padding: 60px;
-    font-size: 20px;
 
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -107,8 +106,16 @@ body{
 
 .especInfo > h3{
     margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .especInfo > p{
     margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.rodape{
+    padding: 45px;
+    font-size: 20px;
+    text-align: center;
 }
