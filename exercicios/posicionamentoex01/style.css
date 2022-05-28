@@ -21,3 +21,18 @@ body{
     text-align: center;
 }
 
+.menuList{
+    display: flex;
+    gap: 0px 20px;
+
+    justify-content: center;
+}
+.menuList > .menuItem > .item{
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #000;
+}
+
+.branco{
+    background-color: #FFF;
+}
