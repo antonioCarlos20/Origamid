@@ -36,3 +36,47 @@ body{
 .branco{
     background-color: #FFF;
 }
+
+.grid{
+    margin: 60px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid > img{
+    width: 100%;
+}
+
+.grid > .info{
+    padding: 90px 40px 80px 60px;
+    text-align: end;
+    position: relative;
+}
+
+.grid > .info > h2{
+    font-size: 30px;
+}
+
+.grid > .info > p{
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+
+.grid > .info > .botao{
+    padding: 15px 30px;
+    border-radius: 3px;
+    background-color: #ee2211;
+    color: #FFF;
+}
+
+.grid > .info > span{
+    padding: 2px;
+    width: 60px;
+    background-color: #ee2211;
+
+    position: absolute;
+    right: -31px;
+    top: 30px;
+}
