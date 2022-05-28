@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo{
+    padding: 50px;
+    margin: 25px;
+    height: 300px;
+    border: 2px solid #5e5d5d;
+    background-color: #282828;
+    text-align: center;
+    position: relative;
+}
+
+.conteudo2{
+    padding: 40px;
+    border-radius: 5px;
+    background-color: red;
+    position: relative;
+}
+
+span{
+    padding: 10px 5px;
+    border-radius: 4px;
+    background-color: #CCC;
+    border: 1px solid #5e5d5d;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
