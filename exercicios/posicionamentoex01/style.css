@@ -7,8 +7,17 @@
     text-decoration: none;
 }
 
+body{
+    background-color: #f7f7f7;
+}
+
 .container{
     max-width: 1000px;
-    background-color: #ccc;
     margin: auto;
 }
+
+.logo{
+    padding: 60px;
+    text-align: center;
+}
+
