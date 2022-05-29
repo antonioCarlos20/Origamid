@@ -72,3 +72,17 @@ p > a{/* Seletor filho */
     max-width: 100%;
     display: block;
 }
+
+.listaDesordenada{
+    margin: 0;
+    padding: 0;
+    /* list-style: url(img/infinity-1837436.svg); */
+    list-style: none
+}
+
+.listaDeDefinicao,
+dt,
+dd{
+    margin: 0;
+    padding: 0;
+}
