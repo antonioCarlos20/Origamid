@@ -47,6 +47,41 @@
         <img src="img/infinity-1837436.svg" alt="Simbolo do infinito">
     </div>
 
+    <h1>Aprendendo sobre HTML semêntico</h1>
+
+    <main>
+        <p>Engloba o conteúdo principal do site</p>
+    </main>
+
+    <nav aria-label="Navegação primária">
+        <p>Marca a navegação princípal do site</p>
+        <p>Com o parâmetro aria-label podemos dar uma etiqueta para a tag</p>
+    </nav>
+
+    <article aria-labelledby="SobreAEmpresa">
+        <h2 id="SobreAEmpresa">Sobre a empresa</h2>
+        <p>Marca uma região de conteúdo do site que por si só já faz sentido sem precisar do restante do conteúdo do site</p>
+        <p>também usa o parâmetro aria-label e o aria-labelledby que ao invés de criar uma etiqueta usa o conteúdo de uma tag usando seu id</p>
+    </article>
+    
+    <section>
+        <h2>Sobre nossa equipe</h2>
+        <p>Marca uma região de conteúdo do site que por si só não faz sentido </p>
+        <p>Usa o parâmetro aria-label para aparecer nos leitores de página</p>
+    </section>
+
+    <aside>
+        <p>Marca uma região secundária do site</p>
+    </aside>
+
+    <header>
+        <p>Marca o cabeçalho do site ou de artigos do site</p>
+    </header>
+
+    <footer>
+        <p>Marca o rodapé do site ou de artigos do site</p>
+    </footer>
+
 </body>
 
 </html>

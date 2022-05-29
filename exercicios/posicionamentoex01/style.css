@@ -23,9 +23,14 @@ body{
 
 .menuList{
     display: flex;
-    gap: 0px 26px;
+    gap:20px;
+    flex-wrap: wrap;
 
     justify-content: center;
+}
+
+.menuList > .menuItem{
+    margin: 10px;
 }
 .menuList > .menuItem > .item{
     padding: 15px 30px;
@@ -44,14 +49,17 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 
-.grid > img{
-    width: 100%;
-}
 
 .grid > .info{
-    padding: 90px 40px 80px 60px;
+    padding: 40px;
+    border-top-left-radius: 4px;
     text-align: end;
     position: relative;
+
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 25px;
 }
 
 .grid > .info > h2{
@@ -60,8 +68,6 @@ body{
 
 .grid > .info > p{
     font-size: 20px;
-    margin-bottom: 35px;
-    margin-top: 25px;
 }
 
 .grid > .info > .botao{
@@ -81,27 +87,26 @@ body{
     top: 30px;
 }
 
+.grid > img{
+    max-width: 100%;
+    border-top-right-radius: 4px;
+}
+
 .vantagens{
     font-size: 64px;
     color: #c6c6c6;
     align-self: center;
-    text-align: center;
+    text-align: end;
+    margin-right: 40px;
 }
 
 .especificacoes{
     padding: 60px;
+    border-bottom-right-radius: 4px;
 
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 20px;
-}
-
-.especificacoes > img{
-    justify-self: start;
-}
-
-.especInfo{
-    justify-self: start;
 }
 
 .especInfo > h3{
