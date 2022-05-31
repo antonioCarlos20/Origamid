@@ -1,0 +1,31 @@
+
+.lista1> li:first-child{
+    background-color: red;
+}
+
+.lista1 > li:last-child{
+    background-color: blue;
+}
+
+.lista2 > li:nth-child(2){
+    background-color: green;
+}
+
+.lista3 > li:nth-child(even){
+    background-color: #DDD;
+}
+
+.lista3 > li:nth-child(odd){
+    background-color: #CCC;
+}
+
+.lista4 > li:nth-child(3n){
+    background-color: #aaa;
+}
+
+.lista5 > li:not(
+:nth-child(3),
+.semEstilo,
+:first-child){
+    background-color: #aaa;
+}
