@@ -1,5 +1,5 @@
 
-p{
+p.paragrafo1{
     width: 500px;
 
     font-family: 'Times New Roman';
@@ -16,5 +16,25 @@ p{
     text-decoration-style: wavy;
     text-decoration-thickness: 2px;
     text-indent: 7rem;
+    letter-spacing: .2rem;
+}
+
+p.paragrafo2{
+    width: 500px;
+
+    font-family: 'Times New Roman';
+    font-size: 2rem;
+}
+
+p.paragrafo2::first-letter{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    border-bottom-style: solid;
+}
+
+p.paragrafo2::first-line{
+    font-size: 1.5rem;
+    font-weight: 600;
     letter-spacing: .2rem;
 }
