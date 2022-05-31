@@ -63,11 +63,11 @@ body{
 }
 
 .grid > .info > h2{
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .grid > .info > p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .grid > .info > .botao{
@@ -93,7 +93,7 @@ body{
 }
 
 .vantagens{
-    font-size: 64px;
+    font-size: 4rem;
     color: #c6c6c6;
     align-self: center;
     text-align: end;
@@ -111,16 +111,16 @@ body{
 
 .especInfo > h3{
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .especInfo > p{
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 1.12rem;
 }
 
 .rodape{
     padding: 45px;
-    font-size: 20px;
+    font-size: 1.12rem;
     text-align: center;
 }
