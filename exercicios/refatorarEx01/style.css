@@ -7,7 +7,8 @@
     text-decoration: none;
 }
 
-body{
+body,
+.especificacoesItem:nth-child(odd){
     background-color: #f7f7f7;
 }
 
@@ -103,12 +104,16 @@ body{
     position: relative;
 }
 
-.vantagens{
-    font-size: 4rem;
-    color: #c6c6c6;
+.VantagensBg{
+    padding: 40px;
     align-self: center;
     text-align: end;
-    margin-right: 40px;
+    background: url(img/onda.svg);
+}
+
+.VantagensBg > .vantagens{
+    font-size: 4rem;
+    color: #c6c6c6;
 }
 
 .especificacoes{
