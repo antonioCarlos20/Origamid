@@ -65,6 +65,18 @@ body{
     justify-items: end;
     gap: 25px;
 }
+.grid > .info::before{
+    content: "";
+    
+    padding: 2px;
+    width: 60px;
+    background-color: #ee2211;
+
+    position: absolute;
+    top: 40px;
+    right: -32px;
+    z-index: 1;
+}
 
 .grid > .info > h2{
     font-size: 1.8rem;
@@ -84,19 +96,11 @@ body{
     background-color: #ab1103;
 }
 
-.grid > .info > span{
-    padding: 2px;
-    width: 60px;
-    background-color: #ee2211;
-
-    position: absolute;
-    right: -31px;
-    top: 30px;
-}
-
 .grid img{
     max-width: 100%;
     border-top-right-radius: 4px;
+
+    position: relative;
 }
 
 .vantagens{
