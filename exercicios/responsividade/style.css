@@ -16,7 +16,7 @@ h1 img{
     width: 400px;
 }
 
-img{
+.conteudo img{
     max-width: 100%;
 }
 
@@ -37,5 +37,47 @@ img{
 
     h1 img{
         width: 300px;
+    }
+}
+@media(max-width: 700px){
+    .conteudo{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 350px){
+    h1 img{
+        width: 200px;
+    }
+
+    .conteudo{
+        justify-items: center;
+    }
+
+    .conteudo img{
+        max-width: 85%;
+    }
+
+    .conteudo p{
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1000px){
+    h1{
+       padding: 40px; 
+    }
+
+    .conteudo{
+        gap: 40px;
+    }
+
+    .conteudo p{
+        font-size: 2.4rem;
+    }
+}
+
+@media(min-width: 1100px) and (max-width:1114px){
+    .conteudo p{
+        background-color: red;
     }
 }
