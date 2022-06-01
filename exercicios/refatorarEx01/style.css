@@ -104,16 +104,13 @@ body,
     position: relative;
 }
 
-.VantagensBg{
+.vantagens{
+    font-size: 4rem;
+    color: #c6c6c6;
     padding: 40px;
     align-self: center;
     text-align: end;
     background: url(img/onda.svg);
-}
-
-.VantagensBg > .vantagens{
-    font-size: 4rem;
-    color: #c6c6c6;
 }
 
 .especificacoes{
