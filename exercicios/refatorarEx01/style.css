@@ -80,6 +80,9 @@ body{
     background-color: #ee2211;
     color: #FFF;
 }
+.grid > .info > .botao:hover{
+    background-color: #ab1103;
+}
 
 .grid > .info > span{
     padding: 2px;
@@ -107,10 +110,18 @@ body{
 .especificacoes{
     padding: 60px;
     border-bottom-right-radius: 4px;
+}
 
+.especificacoes > .especificacoesItem{
+    padding: 20px;
+    
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 20px;
+}
+.especificacoes > .especificacoesItem:hover{
+    padding-left: 17px;
+    border-left: 3px solid #ee2211;
 }
 
 .especInfo > h3{
