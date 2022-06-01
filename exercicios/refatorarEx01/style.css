@@ -29,10 +29,12 @@ body,
     flex-wrap: wrap;
 
     justify-content: center;
+    font-size: 1rem;
 }
 
 .menuList > .menuItem{
     margin: 10px;
+    font-size: 1rem;
 }
 .menuList > .menuItem > .item{
     padding: 13px 28px;
