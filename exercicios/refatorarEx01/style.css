@@ -38,6 +38,10 @@ body{
     border-radius: 3px;
     color: #000;
 }
+.menuList > .menuItem > .item:hover{
+    padding: 13px 28px;
+    border: 2px solid #ee2211;
+}
 
 .branco{
     background-color: #FFF;
