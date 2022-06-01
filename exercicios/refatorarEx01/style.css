@@ -35,12 +35,12 @@ body,
     margin: 10px;
 }
 .menuList > .menuItem > .item{
-    padding: 15px 30px;
+    padding: 13px 28px;
     border-radius: 3px;
     color: #000;
+    border: 2px solid #FFF;
 }
 .menuList > .menuItem > .item:hover{
-    padding: 13px 28px;
     border: 2px solid #ee2211;
 }
 
