@@ -9,3 +9,14 @@ img{
     /* Otimo recurso para usar nessa situação ao invés do @media */
     gap: 1.25rem;
 }
+
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.conteudo .cont{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
