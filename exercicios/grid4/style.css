@@ -1,0 +1,11 @@
+
+img{
+    max-width: 100%;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* Otimo recurso para usar nessa situação ao invés do @media */
+    gap: 1.25rem;
+}
