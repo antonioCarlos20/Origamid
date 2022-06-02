@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body,
+.especificacoesItem:nth-child(odd){
+    background-color: #f7f7f7;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo{
+    padding: 60px;
+    text-align: center;
+}
+
+.menuList{
+    margin-bottom: 60px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.menuList > .menuItem{
+    margin: 10px;
+    font-size: 1rem;
+}
+.menuList > .menuItem > .item{
+    padding: 13px 28px;
+    border-radius: 3px;
+    color: #000;
+    border: 2px solid #FFF;
+}
+.menuList > .menuItem > .item:hover{
+    border: 2px solid #ee2211;
+}
+
+.branco{
+    background-color: #FFF;
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.grid > .info{
+    padding: 40px;
+    border-top-left-radius: 4px;
+    text-align: end;
+    position: relative;
+
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 25px;
+}
+.grid > .info::before{
+    content: "";
+    
+    padding: 2px;
+    width: 60px;
+    background-color: #ee2211;
+
+    position: absolute;
+    top: 40px;
+    right: -32px;
+    z-index: 1;
+}
+
+.grid > .info > h2{
+    font-size: 1.8rem;
+}
+
+.grid > .info > p{
+    font-size: 1.25rem;
+}
+
+.grid > .info > .botao{
+    padding: 15px 30px;
+    border-radius: 3px;
+    background-color: #ee2211;
+    color: #FFF;
+}
+.grid > .info > .botao:hover{
+    background-color: #ab1103;
+}
+
+.grid img{
+    max-width: 100%;
+    border-top-right-radius: 4px;
+
+    position: relative;
+}
+
+.vantagens{
+    font-size: 4rem;
+    color: #c6c6c6;
+    padding: 40px;
+    align-self: center;
+    text-align: end;
+    background: url(img/onda.svg);
+}
+
+.especificacoes{
+    padding: 60px;
+    border-bottom-right-radius: 4px;
+}
+
+.especificacoes > .especificacoesItem{
+    padding: 20px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
+.especificacoes > .especificacoesItem:hover{
+    padding-left: 17px;
+    border-left: 3px solid #ee2211;
+}
+
+.especInfo > h3{
+    margin-bottom: 15px;
+    font-size: 1.12rem;
+}
+
+.especInfo > p{
+    margin-bottom: 15px;
+    font-size: 1.12rem;
+}
+
+.rodape{
+    padding: 45px;
+    font-size: 1.12rem;
+    text-align: center;
+}
