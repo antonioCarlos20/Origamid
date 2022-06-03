@@ -1,0 +1,67 @@
+
+@media(max-width: 960px){
+    .vantagens{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 860px){
+
+    .logo {
+        padding: 40px;
+    }
+
+    .menuList{
+        gap: 10px;
+    }
+
+    .menuList > .menuItem{
+        margin: 0;
+    }
+
+    .grid > .info > h2 {
+        font-size: 1.6rem;
+    }
+
+    .grid > .info > p {
+        font-size: 1.1rem;
+    }
+
+    .grid > .info > .botao{
+        font-size: .8rem;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .grid > .info{
+        justify-items: center;
+        text-align: center;
+    }
+
+    .grid > .info > h2,
+    .vantagens {
+        font-size: 3rem;
+    }
+
+    .grid > .info > p,
+    .menuList > .menuItem {
+        font-size: 1.3rem;
+    }
+
+    .grid > .info > .botao {
+        font-size: 1rem;
+    }
+
+    .grid > .info::before{
+        content: none;
+    }
+
+    .secao1{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+}
