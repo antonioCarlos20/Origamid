@@ -65,3 +65,59 @@
     }
 
 }
+
+@media (max-width: 632px){
+    .menuList > .menuItem > .item,
+    .grid > .info > .botao{
+        font-size: .8rem;
+    }
+
+    .grid > .info > h2,
+    .vantagens {
+        font-size: 2rem;
+    }
+
+    .grid > .info > p {
+        font-size: 1rem;
+    }
+
+    .vantagens{
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px){
+
+    .menuMobile{
+        padding: 6px;
+    
+        display: grid;
+        gap: 4px;
+    
+        position: absolute;
+    }
+
+    .menuList {
+        width: 160px;
+        height: 100vh;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: start;
+        position: absolute;
+        top: 0;
+        left: -160px;
+        z-index: 2;
+        background: #f7f7f7;
+    }
+
+    .menuList > .menuItem > .item{
+        width: 100px;
+        display: block;
+    }
+}
+
+@media (max-width: 400px){
+    .grid > .info > h2, .vantagens {
+        font-size: 1.5rem;
+    }
+}

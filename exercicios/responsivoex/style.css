@@ -17,6 +17,20 @@ body,
     margin: auto;
 }
 
+.cabecalho{
+    position: relative;
+}
+
+.menuMobile{
+    display: none;
+}
+
+.menuMobile div{
+    width: 30px;
+    height: 6px;
+    background-color: #ee2211;
+}
+
 .logo{
     padding: 60px;
     text-align: center;
