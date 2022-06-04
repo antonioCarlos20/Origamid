@@ -39,6 +39,6 @@ font-family: 'Fira Sans'; */
 }
 .menuPrincipal .menu a:hover{
     border-radius: .25rem;
-    background: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+    background: linear-gradient(180deg, hsl(281, 94%, 57%) 0%, #800ADD 100%);
 }
 /* Estilo do Header */
