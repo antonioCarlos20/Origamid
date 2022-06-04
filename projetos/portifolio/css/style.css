@@ -39,6 +39,39 @@ font-family: 'Fira Sans'; */
 }
 .menuPrincipal .menu a:hover{
     border-radius: .25rem;
-    background: linear-gradient(180deg, hsl(281, 94%, 57%) 0%, #800ADD 100%);
+    background: linear-gradient(180deg, #b72af8 0%, #800ADD 100%);
 }
 /* Estilo do Header */
+
+/* Conteúdo  principal do site */
+/* Primeira parte  -Sobre*/
+
+.main1{
+    gap: 8.75rem;
+}
+
+.main1 > img{
+    max-width: 100%;
+    display: block;
+}
+
+.sobre h1{
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display SC';
+
+    position: relative;
+}
+.sobre h1::before{
+    content: url(../img/detalhe.svg);
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    z-index: -1;
+}
+
+.sobre p{
+    margin-top: 1.87rem;
+    font-size: 1.5rem;
+}
