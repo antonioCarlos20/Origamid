@@ -1,3 +1,44 @@
 
 /* font-family: 'Playfair Display SC';
 font-family: 'Fira Sans'; */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Fira Sans';
+}
+
+/* Estio padrão grid */
+.grid{
+    max-width: 72.5rem;
+    margin: 0 8.75rem;
+    padding: 2.81rem 0;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+
+/* Estilo do Header */
+.menuPrincipal .menu{
+    display: flex;
+    justify-content: end;
+    gap: 2.5rem;
+}
+
+.menuPrincipal .menu a{
+    padding: 20px 30px;
+    border-radius: 4px;
+    font-size: 1.12rem;
+    color: #141414;
+}
+.menuPrincipal .menu a:hover{
+    border-radius: .25rem;
+    background: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+}
+/* Estilo do Header */
