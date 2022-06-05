@@ -31,15 +31,40 @@ font-family: 'Fira Sans'; */
     gap: 2.5rem;
 }
 
+.menuPrincipal .menu a .gradient{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#b72af8), to(#800ADD));
+    background: -webkit-linear-gradient(top, #b72af8, #800ADD);
+    background: -moz-linear-gradient(top, #b72af8, #800ADD);
+    background: -o-linear-gradient(top, #b72af8, #800ADD);
+    background: linear-gradient(top, #b72af8, #800ADD);
+
+    -webkit-transition: opacity .5s linear;
+    -moz-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+
+    opacity: 0;
+}
+
 .menuPrincipal .menu a{
     padding: 20px 30px;
     border-radius: 4px;
     font-size: 1.12rem;
     color: #141414;
+
+    position: relative;
 }
-.menuPrincipal .menu a:hover{
+.menu a:hover .gradient{
+    opacity: 1;
     border-radius: .25rem;
-    background: linear-gradient(180deg, #b72af8 0%, #800ADD 100%);
 }
 /* Estilo do Header */
 
