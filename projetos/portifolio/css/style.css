@@ -76,3 +76,98 @@ font-family: 'Fira Sans'; */
     margin-top: 1.87rem;
     font-size: 1.5rem;
 }
+
+/* Segunda parte  -Experiência*/
+
+.main2{
+    gap: 7.12rem;
+    /* background-color: red; */
+    align-items: start;
+}
+
+.main2 > h2{
+    font-size: 8rem;
+    line-height: 9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-break: break-all;
+    font-family: 'Playfair Display';
+    color: #E0E0E0;
+}
+
+.experiencia > p{
+    max-width: 35rem;
+    margin: 1.87rem 0 3.75rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #525252;
+}
+
+.experiencia > p > strong{
+    color: #000;
+}
+
+.experienciaLista li{
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    position: relative;
+
+    background-color: #F5F5F5;
+    border: 1px solid #F0F0F0;
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+}
+
+.experienciaLista > li > span{
+    font-size: .87rem;
+
+    position: absolute;
+    top: 1.87rem;
+    left: -3.75rem;
+}
+
+.experienciaItem{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+
+.experienciaItem h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    margin-bottom: 1.25rem;
+
+    position: relative;
+}
+
+
+.experienciaDescricao h3::before{
+    content: "";
+    width: .25rem;
+    height: 1.25rem;
+    background: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+
+    position: absolute;
+    left: -1.5rem;
+    top: .62rem;
+}
+
+.experienciaDescricao p{
+    font-size: .87rem;
+    color: #525252;
+}
+
+.experienciaTecnologia .xpTec{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .62rem;
+}
+
+.experienciaTecnologia .xpTec span{
+    font-size: .87rem;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border-radius: .31rem;
+}
