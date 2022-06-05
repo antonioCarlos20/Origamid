@@ -71,10 +71,6 @@ font-family: 'Fira Sans'; */
 /* Conteúdo  principal do site */
 /* Primeira parte  -Sobre*/
 
-.bgBranco{
-    background-color: #FFF;
-}
-
 .main1{
     margin-bottom: 7.5rem;
     gap: 8.75rem;
@@ -94,11 +90,12 @@ font-family: 'Fira Sans'; */
     position: relative;
 }
 .sobre h1::before{
-    content: url(../img/detalhe.svg);
+    content: url('../img/detalhe.svg');
     position: absolute;
     top: -2.5rem;
     left: -2.5rem;
     z-index: -1;
+    width: 100px;
 }
 
 .sobre p{
