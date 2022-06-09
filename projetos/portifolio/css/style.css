@@ -19,8 +19,6 @@ font-family: 'Fira Sans'; */
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-
-    /* background-color: red; */
 }
 
 
@@ -108,7 +106,6 @@ font-family: 'Fira Sans'; */
 .main2,
 .main3{
     gap: 7.12rem;
-    /* background-color: red; */
     align-items: start;
 }
 
@@ -398,4 +395,13 @@ font-family: 'Fira Sans'; */
     opacity: 0;
     transition: .3s;
 }
+/* 
+Tirar tags desnecessárias
+Usar o align-items ao inves de definir larguras no grid e flex 
+Tirar a und de medida do line-height
+dividir o css em vários arquivos css 
+mudar .formacaoLista para flex (talvez)
+definir width e height diretamente nas imagens no html(metade do tamanho real menos para svg) e corrigir o bug no css height: auto
+*/
+
 
