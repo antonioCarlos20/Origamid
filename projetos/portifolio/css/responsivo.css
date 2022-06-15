@@ -1,0 +1,36 @@
+
+@media( max-width: 1250px ){
+
+    .grid{
+        padding: 2.8rem;
+    }
+
+    .sobre h1{
+        font-size: 3.5rem;
+    }
+
+    .sobre p,
+    .experiencia > p,
+    .formacao > p,
+    .declaracao p:first-child{
+        font-size: 1.3rem;
+    }
+
+    .main2 > h2, 
+    .main3 > h2{
+        font-size: 7rem;
+    }
+
+    .redesSociais a{
+        font-size: 2rem;
+    }
+
+    .footer::before{
+        left: 2.8rem;
+    }
+
+}
+
+@media( max-width: 1100px ){
+
+}
