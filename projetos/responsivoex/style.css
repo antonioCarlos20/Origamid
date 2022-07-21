@@ -1,6 +1,26 @@
 
 
+:root{
+    --texto1: #000;
+    --texto2: #C6C6C6;
+    --fundo: #FFF;
+    --fundo2: #F7F7F7;
+    --backGround: url(img/onda.svg);
+    --borda1: 2px solid #FFF;
+    --borda2: 2px solid #ee2211;
+}
 
+@media(prefers-color-scheme: dark){
+    :root{
+        --texto1: #FFF;
+        --texto2: #FFF;
+        --fundo: #0E0F11;
+        --fundo2: #161819;
+        --backGround: none;
+        --borda1: 2px solid #161819;
+        --borda2: 2px solid #FFF;
+    }
+}
 
 *{
     margin: 0;
@@ -12,7 +32,7 @@
 
 body,
 .especificacoesItem:nth-child(odd){
-    background-color: #f7f7f7;
+    background-color: var(--fundo2);
 }
 
 .container{
@@ -60,15 +80,15 @@ body,
 .menuList > .menuItem > .item{
     padding: 13px 28px;
     border-radius: 3px;
-    color: #000;
-    border: 2px solid #FFF;
+    color: var(--texto1);
+    border: var(--borda1);
 }
 .menuList > .menuItem > .item:hover{
-    border: 2px solid #ee2211;
+    border: var(--borda2);
 }
 
 .branco{
-    background-color: #FFF;
+    background-color: var(--fundo);
 }
 
 .grid{
@@ -104,10 +124,12 @@ body,
 
 .grid > .info > h2{
     font-size: 1.8rem;
+    color: var(--texto1);
 }
 
 .grid > .info > p{
     font-size: 1.25rem;
+    color: var(--texto1);
 }
 
 .grid > .info > .botao{
@@ -129,11 +151,11 @@ body,
 
 .vantagens{
     font-size: 4rem;
-    color: #c6c6c6;
+    color: var(--texto2);
     padding: 40px;
     align-self: center;
     text-align: end;
-    background: url(img/onda.svg);
+    background: var(--backGround);
 }
 
 .especificacoes{
@@ -156,15 +178,21 @@ body,
 .especInfo > h3{
     margin-bottom: 15px;
     font-size: 1.12rem;
+    color: var(--texto1);
 }
 
 .especInfo > p{
     margin-bottom: 15px;
     font-size: 1.12rem;
+    color: var(--texto1);
 }
 
 .rodape{
     padding: 45px;
     font-size: 1.12rem;
     text-align: center;
+}
+
+.rodape > p{
+    color: var(--texto1);
 }
