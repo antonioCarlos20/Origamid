@@ -3,7 +3,7 @@
 :root{
     --texto1: #000;
     --texto2: #C6C6C6;
-    --fundo: #FFF;
+    --fundo1: #FFF;
     --fundo2: #F7F7F7;
     --backGround: url(img/onda.svg);
     --borda1: 2px solid #FFF;
@@ -14,7 +14,7 @@
     :root{
         --texto1: #FFF;
         --texto2: #FFF;
-        --fundo: #0E0F11;
+        --fundo1: #0E0F11;
         --fundo2: #161819;
         --backGround: none;
         --borda1: 2px solid #161819;
@@ -88,7 +88,7 @@ body,
 }
 
 .branco{
-    background-color: var(--fundo);
+    background-color: var(--fundo1);
 }
 
 .grid{
