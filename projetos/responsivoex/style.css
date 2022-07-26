@@ -5,9 +5,10 @@
     --texto2: #C6C6C6;
     --fundo1: #FFF;
     --fundo2: #F7F7F7;
-    --backGround: url(img/onda.svg);
+    --backGround: url(img/ondaClara.svg);
     --borda1: 2px solid #FFF;
     --borda2: 2px solid #ee2211;
+    --logoFill: #000;
 }
 
 @media(prefers-color-scheme: dark){
@@ -16,9 +17,10 @@
         --texto2: #FFF;
         --fundo1: #0E0F11;
         --fundo2: #161819;
-        --backGround: none;
+        --backGround: url(img/ondaEscura.svg);
         --borda1: 2px solid #161819;
         --borda2: 2px solid #FFF;
+        --logoFill: #FFF;
     }
 }
 
@@ -57,10 +59,6 @@ body,
 .logo{
     padding: 60px;
     text-align: center;
-}
-
-.logo img{
-    width: 10rem;
 }
 
 .menuList{
