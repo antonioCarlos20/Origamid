@@ -1,7 +1,7 @@
 
 
 .cabecalho{
-    padding: 13.75rem 2rem;
+    padding: 2rem 13.75rem ;
 
     background-color: #000;
 }
@@ -16,7 +16,7 @@
 }
 
 .titulo1{
-    padding: 13.75rem 3.75rem;
+    padding: 3.75rem 13.75rem;
 
     background-color: #111;
 }
@@ -44,7 +44,7 @@
     color: #FFBB00;
 }
 .bgBranco1{
-    padding: 13.75rem 7.5rem;
+    padding: 7.5rem 13.75rem;
 
     background-color: #FFF;
 }
