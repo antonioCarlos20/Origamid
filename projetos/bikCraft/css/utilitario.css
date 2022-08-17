@@ -1,6 +1,37 @@
 
 
-.bgBranco1{
-    background-color: #FFF;
-    padding: 13.75rem 7.5rem;
+.titulo1{
+    padding: 13.75rem 3.75rem;
+
+    background-color: #111;
 }
+.titulo1 p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+    color: #B2B2B2;
+
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+.titulo1 h2{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+
+    color: #FFF;
+
+    text-transform: capitalize;
+    font-family: 'Poppins';
+}
+.titulo1 span{
+
+}
+.bgBranco1{
+    padding: 13.75rem 7.5rem;
+
+    background-color: #FFF;
+}
+
+/*<h2> titulo<span>.</span>*/
