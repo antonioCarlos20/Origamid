@@ -8,6 +8,7 @@
 .cabecalho .menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 /* .cabecalho .menu .logo{} */
 .cabecalho .menu .menuList{
