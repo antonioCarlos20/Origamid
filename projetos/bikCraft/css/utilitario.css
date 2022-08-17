@@ -1,5 +1,16 @@
 
 
+.cabecalho{
+    padding: 13.75rem 2rem;
+
+    background-color: #000;
+}
+.cabecalho .logo{}
+.cabecalho .menu{
+    display: flex;
+    gap: 2.5rem;
+}
+
 .titulo1{
     padding: 13.75rem 3.75rem;
 
@@ -26,7 +37,7 @@
     font-family: 'Poppins';
 }
 .titulo1 span{
-
+    color: #FFBB00;
 }
 .bgBranco1{
     padding: 13.75rem 7.5rem;
