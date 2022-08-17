@@ -5,8 +5,12 @@
 
     background-color: #000;
 }
-.cabecalho .logo{}
 .cabecalho .menu{
+    display: flex;
+    justify-content: space-between;
+}
+/* .cabecalho .menu .logo{} */
+.cabecalho .menu .menuList{
     display: flex;
     gap: 2.5rem;
 }
